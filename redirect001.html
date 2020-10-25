@@ -34,17 +34,104 @@ max-width: 100%;
 min-width: 10%;
 }
 
+h2 {
+font-family: 'Roboto Slab', serif;    /* 0004 */
+font-size: 30px;
+}
+
+a {
+text-decoration: none;
+font-family: 'Roboto Slab', serif;    /* 0004 */
+font-size: 25px;
+}
+
+a:hover{
+color: red;
+transition: 0.4s;
+}
+
+a:visited {
+color: #770000;  /* cor do link visitado */
+}
+
+.conteudo{
+width: 97.5%;
+height: auto;
+margin-left: 1%;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.area-texto{
+width: 300px;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 5px;
+margin: 5px;
+}
+
+.bloco {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+width: 300px;
+padding: 5px;
+}
+
 .contador{
 display: flex;
 justify-content: center;
 margin-top: 590px;
 }
 
+@media (max-width:558px) {
+.conteudo {
+
+}
+}
+
 </style>
 
 <body>
 
+<section class="conteudo">
+
+<div class="bloco">
+
+
+<div class="area-texto">
+
+<h2>Ola se a página não carregar</h2>
+
+<a href="https://www.4shared.com/folder/4PnPQkP6/xxxxxx.html">clique aqui</a>
+
+</div>
+
+<!--================================================================.html -->
+
+<div class="area-texto">
+
+<h2>Hello if the page doesn't load</h2>
+
+<a href="https://www.4shared.com/folder/4PnPQkP6/xxxxxx.html">click here</a>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
 <meta http-equiv="refresh" content="0; URL='https://www.4shared.com/folder/4PnPQkP6/xxxxxx.html'"/>
+
+
 
 <div class="contador">
 
