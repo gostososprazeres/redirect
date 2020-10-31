@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<!--compatibilidade pra celular.html -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ADS</title>
+
+<script>
+var enderecos = new Array("https://anunciad.com.br?ibn",
+"",
+
+"https://twitter.com/gostososprazer1",
+"https://dood.to/d/cnz2b8f03l91",
+"https://adpop.me/h0FDR",
+"https://vk.com/gostososprazeres2021",
+"https://twitter.com/gostososprazer1")
+function linkAleatorio(){
+aleat = Math.random() * enderecos.length
+aleat = Math.floor(aleat)
+window.location=enderecos[aleat]
+}
+</script>
+
+</head>
+
+<style>
+/* reset */
+
+*{padding: 0px; margin: 0px;}
+
+html,span, p, form, img, a, ul, ol, li, table, tr, td, div{
+border:none;
+outline:none;
+list-style-type:none;
+}
+
+</style>
+
+<body onLoad="javascript:linkAleatorio()">
+
+</body>
+</html>
